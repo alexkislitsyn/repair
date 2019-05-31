@@ -20,6 +20,10 @@ body {
   font-weight: 300;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   width: 1170px;
   margin: auto;
@@ -128,6 +132,7 @@ main {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   padding-right: 112px;
+  color: #333333;
 }
 
 .hero-text__title {
@@ -214,6 +219,9 @@ main {
     font-size: 12px;
   }
   .hero-list__image {
+    margin-right: 15px;
+  }
+  .hero-image {
     margin-right: 15px;
   }
 }
