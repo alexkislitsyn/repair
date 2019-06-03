@@ -161,7 +161,7 @@
 .hero-text {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  padding-right: 112px;
+  padding-right: 105px;
   color: #333333;
 }
 
@@ -195,7 +195,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 22px;
+  margin-bottom: 25px;
 }
 
 .hero-list__item:last-child {
@@ -237,7 +237,7 @@
     margin-bottom: 44px;
   }
   .hero-text {
-    padding-right: 10px;
+    padding-right: 55px;
   }
 }
 
