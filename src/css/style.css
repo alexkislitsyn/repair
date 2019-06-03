@@ -297,7 +297,7 @@
 
 .offer__subtitle {
   max-width: 250px;
-  margin-bottom: 37px;
+  margin-bottom: 36px;
 }
 
 .offer__input {
@@ -314,6 +314,7 @@
   min-height: 70px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
+  margin-bottom: 27px;
 }
 
 .offer-text {
@@ -322,8 +323,25 @@
   display: flex;
 }
 
-.offer-text__phone {
-  display: block;
+.offer__phone {
+  display: inline-block;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #333333;
+}
+
+.offer__info {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.offer__contact {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 73px;
 }
 
 @media (max-width: 1200px) {

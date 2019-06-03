@@ -21,7 +21,7 @@
     margin-bottom: 19px
   &__subtitle
     max-width: 250px  
-    margin-bottom: 37px
+    margin-bottom: 36px
   &__input  
     margin-bottom: 30px
     width: 240px
@@ -31,10 +31,24 @@
     width: 100%
     min-height: 70px
     +bold
+    margin-bottom: 27px
   &-text  
     display: flex
-    &__phone
-     display: block
+  &__phone
+    display: inline-block
+    +bold
+    text-decoration: none
+    color: $text-color
+  &__info
+    font-size: 15px
+    font-weight: 400
+    line-height: 24px
+  &__contact
+    font-size: 15px
+    font-weight: 400
+    line-height: 24px
+    margin-left: 73px
+
 
 @media (max-width: 1200px)
   .offer
