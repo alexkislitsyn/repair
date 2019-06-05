@@ -374,8 +374,15 @@
   }
 }
 
+@media (max-width: 1930px) {
+  .offer {
+    height: 595px;
+  }
+}
+
 /* Стили для блока портфолио */
 .portfolio {
+  height: 735px;
   background: #f5f5f5 url("../img/portfolio/portfolio-pattern.jpg") repeat-y center left;
   background-size: 50%;
 }
@@ -408,20 +415,24 @@
   margin: auto;
 }
 
-@media (max-width: 1900px) {
-  .offer {
-    height: 595px;
-  }
-}
-
 /* Стили для боока с ценами */
 .price__title {
-  margin-bottom: 58px;
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 600px;
+  margin: auto;
 }
 
 .price__subtitle {
-  margin-bottom: 59px;
+  margin-top: 37px;
+  margin-bottom: 50px;
   text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #000000;
 }
 
 .price__card {
@@ -433,6 +444,8 @@
   border: 1px solid #e8e8e8;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 .card:hover {
@@ -446,6 +459,10 @@
 
 .card__text {
   padding: 40px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 45px;
 }
 
 .card__title {
@@ -553,15 +570,30 @@
   font-size: 14px;
   max-width: 160px;
   margin: auto;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000000;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
 }
 
 .steps__title {
   margin-bottom: 59px;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
 }
 
 .steps__subtitle {
   text-align: center;
   margin-bottom: 58px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #000000;
 }
 
 .steps-block {
