@@ -677,6 +677,11 @@
   max-width: 370px;
   margin-top: 15px;
   margin-bottom: 33px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
 }
 
 .interview__title {
@@ -706,6 +711,8 @@
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 400;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
 }
@@ -739,6 +746,8 @@
 
 .form__description {
   display: block;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 @media (max-width: 1200px) {
