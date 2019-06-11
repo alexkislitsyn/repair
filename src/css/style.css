@@ -276,6 +276,10 @@
 }
 
 /* Стили для блока offer */
+#phone-error {
+  margin-left: 10px;
+}
+
 .offer {
   background: url("../img/offer/offer-bg.png") no-repeat;
   background-position: center right;
@@ -669,6 +673,7 @@
   width: 100%;
   max-width: 370px;
   margin-bottom: 15px;
+  margin-top: 5px;
 }
 
 .brif__button {
